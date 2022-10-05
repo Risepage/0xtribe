@@ -7,8 +7,8 @@ const MoralisLogo = () => {
   return (
     <Image
       src={colorMode === 'dark' ? 'https://appdesignerpro.com/wp-content/uploads/2022/10/transparent-logo.png' : 'https://appdesignerpro.com/wp-content/uploads/2022/10/transparent-logo.png'}
-      height={0}
-      width={0}
+      height={70}
+      width={70}
       alt="ADP Thirdbridge"
     />
   );
