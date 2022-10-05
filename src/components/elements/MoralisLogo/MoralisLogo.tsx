@@ -6,10 +6,10 @@ const MoralisLogo = () => {
 
   return (
     <Image
-      src={colorMode === 'dark' ? '/Moralis-DarkBG.svg' : '/Moralis-LightBG.svg'}
-      height={45}
-      width={150}
-      alt="Moralis"
+      src={colorMode === 'dark' ? 'https://appdesignerpro.com/wp-content/uploads/2022/10/transparent-logo.png' : 'https://appdesignerpro.com/wp-content/uploads/2022/10/transparent-logo.png'}
+      height={0}
+      width={0}
+      alt="ADP Thirdbridge"
     />
   );
 };

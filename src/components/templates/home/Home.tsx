@@ -5,52 +5,52 @@ const Home = () => {
   return (
     <VStack w={'full'}>
       <Heading size="md" marginBottom={6}>
-        Ethereum Boilerplate
+        0xTRIBE Roadmap
       </Heading>
       <List spacing={3}>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
-          Moralis authentication
+          Launch 0xTRIBE Mint
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
-          Display Transactions
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          Display ERC20 transfers
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          Display ERC20 balances
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          Display NFT balances
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          Display NFT transfers
+          Mint-Out 0xTRIBE Collection
         </ListItem>
         <ListItem>
           <ListIcon as={SettingsIcon} color="green.500" />
-          Multichain Support
+          Launch Ethereum dApp as Utility
         </ListItem>
         <ListItem>
           <ListIcon as={SettingsIcon} color="green.500" />
-          Adding explorer links to balances, transactions ...
+          Roadmap Item #4
         </ListItem>
         <ListItem>
           <ListIcon as={SettingsIcon} color="green.500" />
-          Better responsive design
+          Roadmap Item #4
         </ListItem>
         <ListItem>
           <ListIcon as={SettingsIcon} color="green.500" />
-          Rainbowkit integration
+          Roadmap Item #4
         </ListItem>
         <ListItem>
           <ListIcon as={SettingsIcon} color="green.500" />
-          Using Moralis from client-side
+          Roadmap Item #4
+        </ListItem>
+        <ListItem>
+          <ListIcon as={SettingsIcon} color="green.500" />
+          Roadmap Item #4
+        </ListItem>
+        <ListItem>
+          <ListIcon as={SettingsIcon} color="green.500" />
+          Roadmap Item #4
+        </ListItem>
+        <ListItem>
+          <ListIcon as={SettingsIcon} color="green.500" />
+          Roadmap Item #4
+        </ListItem>
+        <ListItem>
+          <ListIcon as={SettingsIcon} color="green.500" />
+          Roadmap Item #4
         </ListItem>
         <ListItem>
           <ListIcon as={SettingsIcon} color="green.500" />

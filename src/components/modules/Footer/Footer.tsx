@@ -2,31 +2,31 @@ import { Box, Link, Text } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 const links = {
-  github: 'https://github.com/ethereum-boilerplate/ethereum-boilerplate/',
-  forum: 'https://forum.moralis.io/',
-  moralis: 'https://moralis.io/?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplat',
+  github: 'https://twitter.com/0xTribe_NFT',
+  forum: 'https://appdesignerpro.com/mint-0xtribe',
+  moralis: 'https://medium.com/@0xTribe',
 };
 
 const Footer = () => {
   return (
     <Box textAlign={'center'} w="full" p={6}>
       <Text>
-        ⭐️ Please star this{' '}
+        ⭐️ Follow Us on{' '}
         <Link href={links.github} isExternal alignItems={'center'}>
-          boilerplate <ExternalLinkIcon />
+          Twitter <ExternalLinkIcon />
         </Link>
-        , every star makes us very happy!
+        , every follower counts!!
       </Text>
       <Text>
-        🙋 You have questions? Ask them on the{' '}
+        🙋 Looking to Mint your 0xTRIBE? Head over to our{' '}
         <Link href={links.forum} isExternal alignItems={'center'}>
-          Moralis forum <ExternalLinkIcon />
+          Mint Portal <ExternalLinkIcon />
         </Link>
       </Text>
       <Text>
-        📖 Read more about{' '}
+        📖 Read more about 0xTRIBE on{' '}
         <Link href={links.moralis} isExternal alignItems={'center'}>
-          Moralis <ExternalLinkIcon />
+          Medium <ExternalLinkIcon />
         </Link>
       </Text>
     </Box>
